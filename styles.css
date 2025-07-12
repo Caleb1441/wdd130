@@ -26,13 +26,12 @@ p{
 }
 
 aside{
-    width:auto ;
-    margin:auto ;
-    border:5px ;
-    padding:0 ;
-    background-color:white ;
-    color: darkblue;
-
+    width:auto;
+    margin:auto;
+    border:5px;
+    padding:0;
+    background-color:white;
+    color:darkblue ;
 }
 
 aside p{
