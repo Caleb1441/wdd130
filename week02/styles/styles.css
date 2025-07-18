@@ -1,53 +1,77 @@
+:root{
+    --nav-background-color:darkblue;
+    --aside-background-color:white;
+    --heading-color:darkblue;
+    --p-color:black;
+    --nav-color:white;
+    --nav-padding:10px;
+    --a-padding:20px;
+    --img-padding:2px;
+    --aside-padding:0;
+    --nav-display:block;
+    --main-max-width:90%;
+    --img-height:auto;
+    --img-border:1px solid black;
+    --img-border-shadow: 0 0 30px gray;
+    --aside-width:auto;
+    --aside-margin:auto;
+    --aside-border:5px;
+    --img-width:200px;
+    --footer-margin-top:20px;
+    --footer-border-top:10px;
+    --footer-text-align:center;
+}
+
 nav{
-    background-color: darkblue;
-    padding: 10px;
+    background-color:var(--nav-background-color);
+    padding:var(--nav-padding)
 }
 
 nav a{
-    color: white;
-    display: block;
-    padding: 20px;
+    color: var(--nav-color);
+    display: var(--nav-display);
+    padding: var(--a-padding);
 }
 
 h1{
-    color: darkblue;
+    color: var(--heading-color);
 }
 
 main{
-    max-width: 90%;
+    max-width: var(--main-max-width);
 }
 
 main img{
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    height:var(--img-height);
+    border:var(--img-border);
+    padding: var(--img-padding);
+    box-shadow:var(--img-border-shadow);
 }
 
 p{
-    padding: 0;
+    padding:var(--aside-padding);
 }
 
 aside{
-    width:auto;
-    margin:auto;
-    border:5px;
-    padding:0;
-    background-color:white;
-    color:darkblue;
+    width:var(--aside-width);
+    margin:var(--aside-margin);
+    border:var(--aside-border);
+    padding:var(--aside-padding);
+    background-color:var(--aside-background-color);
+    color:var(--heading-color);
 }
 
 aside p{
-    color: black;
+    color:var(--p-color);
 }
 
 aside img{
-  width: 200px;
-  height: auto;
+  width: var(--img-width);
+  height: var(--img-height);
 }
 
 footer{
-    margin-top: 20px;
-    border-top: 10px; 
-    text-align: center;
+    margin-top: var(--footer-margin-top);
+    border-top: var(--footer-border-top); 
+    text-align: var(--footer-text-align);
 }
