@@ -3,8 +3,8 @@
     --secondary-color:#00B5D5 ;
     --accent1-color:#000000;
     --accent2-color:#FFFFFF ;
-    --heading-font:"Nunito Bold 700";
-    --body-font:"Nunito Regular 400";
+    --heading-font:"Nunito",sans-serif;
+    --body-font:"Nunito",sans-serif;
 }
 
 *{
@@ -21,6 +21,7 @@ header{
 body{
     font-family:var(--body-font) ;
     color:var(--accent1-color) ;
+    font-weight: 400;
 }
 
 header,main,footer {
@@ -31,12 +32,14 @@ header,main,footer {
 h1,h2 {
     font-family:var(--heading-font);
     color:var(--primary-color);
+    font-weight: 700;
 }
 
 nav,p,section,article{
     margin: 16px;
     padding:8px;
 }
+
 
 .socialmedia a{
     text-decoration: none;
@@ -52,31 +55,39 @@ nav,p,section,article{
     height: auto;
 }
 
+.hero h1{
+    position: absolute;
+    top: 20px;
+    width:100%;
+    padding:16px;
+    text-align:center;
+    opacity:0.7;
+    background-color:var(--accent1-color) ;
+    color:#FFF;
+    font-weight: 700;
+}
+.hero article {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero article img {
+  width: 150px;
+  height: auto;
+ 
+}
 
 .socialmedia img{
     width: 50px;
