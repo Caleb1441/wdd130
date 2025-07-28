@@ -193,6 +193,7 @@ nav,p,article{
 .hero article img {
   width: 150px;
   height: auto;
+  float:right;
 }
 
 footer {
