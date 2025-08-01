@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+     <form>
+        <fieldset>
+            <legend>Contact Information  </legend>
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="useremail">User Email:</label>
+            <input type="email" name="useremail" id="useremail">
+        </fieldset>
+     </form>
+     <form>
+        <fieldset>
+            <legend>Questions </legend>
+            <label for="browser">What is your favorite browser?"</label>
+            <select name="browsernames" id="browser">
+                <option value="Edge">Edge</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Moxilla">Moxilla </option>
+                <option value="Opera">Opera</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" name="pet" id="pet">
+            <label for="feedback">List the places you have lived.</label>
+            <textarea name="feedback" id="feedback" placeholder="Lima Perú,Madrid España,Utah USA" rows="5"></textarea>
+         <button type="submit">Submit Poll</button>
+        </fieldset>
+     </form>
+    </main>
+    <footer>
+      <p> ©2025 | HTML Form - User Poll Activity | Your name </p>
+    </footer>
+</body>
+</html>
