@@ -361,6 +361,14 @@ form textarea {
   margin-left: 300px;
 }
 
+form button {
+  max-width: 150px; 
+  height: auto;     
+  padding: 1px; 
+  font-size: 16px;  
+  margin: 0 auto; 
+  display: block;
+}
 
 
 
