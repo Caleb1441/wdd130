@@ -228,6 +228,9 @@ footer .socialmedia {
 }
 
 
+
+
+
 /*Contact HTML part*/
 
 main h1 {
@@ -309,28 +312,37 @@ form h3 {
 form fieldset {
   grid-column: 1 / -1;
   width: 100%;
-  display: grid;
+  display: grid; 
   grid-template-columns: 1fr 1fr;
   gap: 16px;
   border: none;
   padding: 0;   
 } 
 
-form textarea,
-form button,
-form label[for="subscribe"],
-form input[type="checkbox"] {
+
+form label[for="user_name"],
+form input#user_name,
+form label[for="email"],
+form input#email {
+  grid-column: auto;
+  width: 100%;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   grid-column: 1 / -1;
-
 }
 
-form input[type="text"],
-form input[type="email"] {
-  width: 50%;
- 
+
+form input[type="radio"] {
+  margin: 0; 
 }
+
 
 form textarea {
+  grid-column: 1 / -1; 
   width: 100%;
   height: 100px;
   resize: vertical;
@@ -362,14 +374,14 @@ form textarea {
 }
 
 form button {
+  grid-column: 1 / -1;
   max-width: 150px; 
   height: auto;     
-  padding: 1px; 
+  padding: 6px 12px; 
   font-size: 16px;  
   margin: 0 auto; 
   display: block;
 }
-
 
 
 
