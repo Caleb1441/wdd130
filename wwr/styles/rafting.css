@@ -313,6 +313,8 @@ form fieldset {
   grid-column: 1 / -1;
   width: 100%;
   display: grid; 
+
+
   grid-template-columns: 1fr 1fr;
   gap: 16px;
   border: none;
@@ -366,6 +368,10 @@ form textarea {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.footer-left a{
+  color:white;
 }
 
 
