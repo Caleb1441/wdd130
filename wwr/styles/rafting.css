@@ -489,8 +489,10 @@ form button {
 }
 
 .trip-card {
-  width: 400px;
-  height: auto;
+  width: 100%px;
+  max-width: 400px;
+  margin:0 auto;
+  text-align:center;
 }
 
 .trip-card img{
@@ -507,6 +509,13 @@ table {
   margin-bottom: 25px;
 }
 
+caption {
+    caption-side: bottom; 
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 8px;
+    font-style: italic;
+}
 th {
   background-color:var(--primary-color);     
   color: #FFFFFF;                
@@ -521,11 +530,7 @@ td {
   text-align: center;
 }
 
-caption {
-  caption-side: bottom;         
-  margin-top: 8px;
-  font-style: italic;
-}
+
 
 
 
